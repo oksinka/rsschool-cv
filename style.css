@@ -8,18 +8,17 @@
 .header {
     display: flex;
     justify-content: center;
+    align-items: center;
     width: 100%;
     max-width: 1200px;
     min-height: 90px;
     margin: 0 auto;
-    color: rgba(4, 130, 42, 1);
     background-color: rgba(249, 93, 25, 0.7);
 }
 
-
 .nav-menu {
     display: block;
-    margin: 10px;
+    margin: 0;
 }
 
 .nav-list {
@@ -35,6 +34,7 @@
 .nav-item {
     display: flex;
     align-items: center;
+    min-height: 90px;
     padding: 0 2px;
     color: #000000;
 }
@@ -44,6 +44,7 @@
     align-items: center;
     position: relative;
     padding: 0 25px;
+    margin: 0 auto;
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     font-weight: 600;
@@ -52,6 +53,11 @@
     list-style: none;
     text-transform: uppercase;
     text-decoration: none;
+}
+/* color button */
+.nav-item:hover {
+    background-color: rgba(4, 130, 42, 0.7);
+    box-shadow: 0 4px 8px rgba(4, 130, 42, 0.3);
 }
 
 .section-profile {
@@ -62,7 +68,6 @@
     /*padding: 50px 30px;*/
     margin: 0 auto;
     border-bottom: 7px solid rgba(249, 93, 25, 0.8);
-    /* background-color: rgba(249, 93, 25, 0.3);*/
 }
 
 .section-profile-title {
@@ -103,6 +108,10 @@
     color: rgba(4, 130, 42, 1);
 }
 
+.logo {
+    margin-bottom: -7px;
+}
+
 .about {
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
@@ -110,7 +119,7 @@
     display: flex;
     align-items: center;
     color: #000000;
-    margin: 10;
+    margin: 10px;
 }
 
 .aboutcourses {
@@ -127,7 +136,6 @@
     max-width: 1200px;
     min-height: 90px;
     margin: 0 auto;
-    color: rgba(4, 130, 42, 1);
     background-color: rgba(249, 93, 25, 0.8);
 }
 
